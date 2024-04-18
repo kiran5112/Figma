@@ -1,0 +1,109 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.background-container {
+  background-image: url('https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=826&t=st=1713283566~exp=1713284166~hmac=47c8c885c668c74a00a2e2f5258499f61d94fe3269b6a5446c1bb9ab3cf3f261');
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  color: aliceblue;
+  text-align: center;
+
+}
+.black{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+  
+}
+.you{
+  font-size: 27px;
+  padding: 2px;
+}
+.box2{
+  width: 100%;
+  height: auto;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box3{
+  width: 100%;
+  height: auto;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cont1{
+  width: 200px;
+  height: auto;
+  font-size: 10px;
+  box-shadow: 2px, 2px,1px,1px rgb(26, 24, 24);
+  border: 1px solid gray;
+  border-top-left-radius: 15px;
+  border: 1px solid black;
+  border-bottom-right-radius: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 0px;
+  margin: 6px;
+
+}
+.image1{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+.background-container{
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  color: aliceblue;
+  
+
+}
+.black{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  line-height: 50px;
+  
+}
+.cont1{
+  width: 90%;
+}
+.you{
+  font-size: 27px;
+  padding: 2px;
+  color: aqua;
+}
+.box2{
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.box3{
+  width: 100%;
+  height: auto;
+  /* justify-content: flex-end; */
+  flex-direction: column;
+  
+}
+.image1{
+  width: 100%;
+  height: auto;
+}
+
+
+}
